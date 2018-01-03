@@ -50,8 +50,7 @@ public class GuessingGame extends JFrame {
 				newGame();
 			}
 			
-			// popup confirm!!! SEARCH MORE IN GOOGLE (no and cancel option!!!)
-			
+			// show message Dialog, when lose
 			if (triesLeft <= 0) {
 				javax.swing.JOptionPane.showMessageDialog(null, "Sorry, you ran out of tries. The number was " + theNumber + ". Play again!");
 				
